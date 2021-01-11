@@ -1,0 +1,161 @@
+*{
+	padding: 0;
+	margin:0;
+}
+body
+{
+	background-color: #DDD;
+}
+
+.menu-bar
+{
+	background:#c79c60;
+	text-align: center;
+
+}
+.menu-bar ul
+{
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
+}
+.menu-bar ul li
+{
+	width: 120px;
+	margin:15px;
+	padding: 15px;
+}
+.menu-bar ul li a
+{
+	text-decoration: none;
+	color: #fff;
+}
+.active, .menu-bar ul li:hover
+{
+	background:darkblue;
+	border-radius: 3px;
+}
+.menu-bar .fa
+{
+	margin-right: 8px;
+}
+.sub-menu-1
+{
+	display: none;
+
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+	display: block;
+	position: absolute;
+	background-color: #c79c60;
+	margin-top: 15px;
+	margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+	display: block;
+	margin:10px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background:transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+	border-bottom:none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+	color: blue;
+
+}
+
+.description-container
+{
+	max-width: 1100px;
+	margin: 50px auto 100px;
+	background:rgba(255,255,255,.5); 
+	box-shadow: 0 15px 20px rgba(0,0,0,.2);
+   	padding: 30px;
+
+}
+
+.welcome-text
+{
+	position: absolute;
+	width: 600px;
+	height: 300px;
+	margin:20% 30%;
+	text-align: center;
+
+}
+.welcome-text h1
+{
+	text-align: center;
+	color: #c79c60;
+	text-transform: uppercase;
+	font-size: 50px;
+}
+
+.welcome-text a
+{
+	border:1px solid #c79c60;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-top: 20px;
+	display: inline-block;
+	color: #c79c60;
+}
+.welcome-text a:hover
+{
+	background:blue;
+	color: #333;
+}
+.description-container
+{
+	max-width: 1100px;
+	margin: 50px auto 100px;
+	background:rgba(255,255,255,.5); 
+	box-shadow: 0 15px 20px rgba(0,0,0,.2);
+   	padding: 30px;
+   	border-radius: 10px;
+
+
+}
+
+.description-container p
+{
+	margin:0;
+	padding: 0;
+	letter-spacing: 1px;
+	word-spacing: 4px;
+	text-align: justify;
+	font-family: bold;
+	
+}
+.circle
+{
+   width: 200px;
+   height: 200px;
+   background:url(imageWeb/tumblr_inline_mlrhy4mdYw1qz4rgp.png);
+   background-size: cover;
+   border-radius: 50%;
+   float: left;
+   shape-outside: circle();
+   margin:30px 30px 30px 0;
+
+}
+h1
+{
+	margin: 0 0 20px;
+	padding: 0:
+	font-size:30px;
+}
