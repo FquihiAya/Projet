@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background: #ddd;
+}
+
+.header{
+    background: #26538A;
+    background-size: 100%;
+    height: 150px;
+    background-position: 0 -290px;
+}
+.sub-page{
+    text-align: center;
+    line-height: 150px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.sub-page h2{
+    font-size: 27px;
+}
+
+.content{
+    padding: 250px 0px 20px 0px;
+    text-align: center;
+}
+.content img{
+        box-shadow: 0 10px 20px rgba(0,0,0,.8);
+
+}
+.content h3 
+{
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px ,5px;
+}
+.content h3 strong{
+  color: #eea412;
+}
+
+.content-sub img {
+    float: left;
+    margin-right: 50px;
+    border-radius: 8px;
+
+
+}
+.content-sub
+{
+    margin-right:20px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.content-sub p{
+    text-align: justify;
+}
+
+
+
+
+
+.sec2{
+    margin-top: 600px;
+}
+
+
+.contentt h1 strong{
+  color: #26538A;
+  font-size: 50px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px ,5px;
+}
+
+.heading{
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 40px;
+    
+}
+.image-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.image{
+    width: 120px;
+    height: 120px;
+    background: #fff;
+    margin: 2px 30px;
+    border-radius: 50%;
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgb(0,0,0,0.8);
+
+ }
+
+ .image:hover{
+    border: 3px solid #26538A;
+ }
+ .image-container img{
+    width: 116px;
+    height: 116px;
+    border-radius: 50%;
+
+ }
+ .info-container{
+    width: 1100px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 0px 0px 50px rgba(0,0,0,0.5);
+ }
+ .profile{
+    width: 250px;
+    height: 325px;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 0;
+ }
+ .name{
+    margin-top: 20px;
+    padding: 0px 15px;
+    text-align: left;
+    font-size: 40px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    font-style: italic;
+    color: #eea412;
+ }
+ .name:hover{
+
+ }
+ .status{
+    padding: 0px 20px;
+    text-align: left;
+    line-height: 20px;
+    margin: 0;
+    color: #6c757D;
+ }
+ .about{
+    height: 240px;
+    padding: 0px 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    text-align: justify;
+    font-style: 'arial';
+ }
+ span
+ {
+    color: #26538A;
+ }
